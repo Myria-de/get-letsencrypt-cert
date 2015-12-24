@@ -98,7 +98,7 @@ get_cert() {
 # Damit erzeugen Sie ein Test-Zertifikat, das aber vom Browser
 # wie ein selbst-signiertes Zertifikat behandelt wird.
 # Entfernen Sie das Kommentarzeich vor der nächsten Zeile.
- TEST_PARAM=--test-cert
+# TEST_PARAM=--test-cert
 #
 ${LEBIN} certonly \
     ${TEST_PARAM} \
