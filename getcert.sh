@@ -31,7 +31,7 @@ set -e
 # passen Sie die folgenden Parameter an
 country=DE            # Ihr Land, beispielsweise DE
 state="Germany"       # Ihr Staat, beispielsweise Germany
-town="Munic"          # Ihre Stadt beispielsweise Berlin
+town="Munich"          # Ihre Stadt beispielsweise Berlin
 email=ich@irdendwo.de # Ihre E-Mail-Adresse
 DAYS_REMAINING=30     # Verbleibende Tage bis zur Erneuerung
 #########################
