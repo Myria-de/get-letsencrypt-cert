@@ -1,7 +1,7 @@
 #!/bin/sh
 # 
 # getcert.sh
-# Version 1.1
+# Version 1.2
 #
 # Wichtige Hinweise: Dieses Script muss im Home-Verzeichnis in einem eigenen
 # Ordner liegen, beispielsweise unter ~/getcert/getcert.sh
@@ -18,8 +18,14 @@
 # Drücken Sie erst dann die Enter-Taste, um fortzufahren
 #
 # Der LetsEncrypt-Client muss mit
-# git clone https://github.com/letsencrypt/letsencrypt
-# im Home-Verzeichnis installiert sein.
+# 
+# sudo apt-get update
+# sudo apt-get install software-properties-common
+# sudo add-apt-repository ppa:certbot/certbot
+# sudo apt-get update
+# sudo apt-get install certbot
+#
+# installiert sein.
 #
 # Andernfalls geben Sie in der nächsten Zeile
 # ein anderes Verzeichnis an.
