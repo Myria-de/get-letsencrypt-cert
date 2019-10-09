@@ -23,7 +23,7 @@
 #
 # Andernfalls geben Sie in der nächsten Zeile
 # ein anderes Verzeichnis an.
-LEBIN=~/letsencrypt/letsencrypt-auto
+LEBIN=/usr/bin/certbot
 
 set -e
 
@@ -105,7 +105,6 @@ ${LEBIN} certonly \
     --agree-tos \
     --authenticator manual \
     --rsa-key-size 4096 \
-    --text \
     --config-dir letsencrypt/etc --logs-dir letsencrypt/log \
     --work-dir letsencrypt/lib --email "$email" \
     --csr "$csr" 
